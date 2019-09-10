@@ -1,0 +1,76 @@
+body {
+	background-color: white;
+	
+}
+
+h1 {
+	color: black;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 50px;
+}
+
+h1 > span {
+	color: white;
+	background-color: black;
+}
+
+h2 {
+	color: black;
+	font-family: 'IBM Plex Serif', serif;
+	font-weight: 700;
+	font-size: 24px;
+	/*font-variant: small-caps;*/
+	margin-bottom: 0em;
+	
+}
+
+ul {
+	color: inherit;
+	font-family: 'IBM Plex Serif', serif;
+	/*font-weight: inherit;*/
+	/*font-size: inherit;*/
+	font-weight: 400;
+	list-style: circle;
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: black;
+	font-family: 'IBM Plex Serif', serif;
+	font-weight: 400;
+	margin-top: 0em;
+}
+
+img {
+	border-radius: 5%;
+}
+
+img.resize {
+	width:250px;
+	height:250px;
+}
+
+.grid-container {
+  display: grid;
+  grid: [row1] auto [row2] auto / [col1] auto [col2] auto;
+  grid-gap: 3px;
+  background-color: black;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.grid-container > div {
+	/*margin: auto;*/
+  background-color: white;
+  text-align: center;
+  padding: 10px 10px;
+  /*font-size: 30px;*/
+  border-radius: 3px;
+}
+
+.coco-grid {
+	grid-column: 1 / span 2;
+	
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<meta name="robots" content="noindex">
+<head>
+    <title>localpage</title>
+	<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700i|IBM+Plex+Serif:400" rel="stylesheet"> 
+	<body>
+		<h1>Test Page</h1>
+		<p>Test paragraph</p>
+	</body>
+</html>
