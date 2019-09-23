@@ -3,9 +3,15 @@
 
 import requests
 import json
+import configparser, os
 
-apikey = "ccb8143fdd68c3e43ba4e98d1eabfd62"
-apitoken = "5264495a70ef1da99f8907626a5235c5650c516284853af2160fab8d1ca184c3"
+cfgFile = "trelloApi.cfg"
+
+config = configparser.RawConfigParser()
+config.read(cfgFile)
+
+apikey = config.get('id', 'key')
+apitoken = config.get('id', 'token')
 
 def getBoards(key,token):
 	reqUrl = 'https://api.trello.com/1/members/me/boards?fields=name,url'
